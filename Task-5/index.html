@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book List Manager</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+      }
+      input,
+      select,
+      button {
+        margin: 5px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Book List</h1>
+    <table id="bookTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Year</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <h2>Update a Book</h2>
+    <form id="updateForm">
+      <label for="bookIdSelect">Select Book by ID:</label>
+      <select id="bookIdSelect"></select>
+      <input type="text" id="newTitle" placeholder="New Title" />
+      <input type="text" id="newAuthor" placeholder="New Author" />
+      <input type="text" id="newYear" placeholder="New Year" />
+      <input type="text" id="newGenre" placeholder="New Genre" />
+      <button type="submit">Update Book</button>
+    </form>
+
+    <h2>Remove a Book</h2>
+    <form id="removeForm">
+      <input type="number" id="removeId" placeholder="Book ID to Remove" />
+      <button type="submit">Remove Book</button>
+    </form>
+
+    <!-- Link to external JS file -->
+    <script src="script.js"></script>
+  </body>
+</html>
