@@ -1,23 +1,5 @@
 [
-  {
-    "id": 1,
-    "title": "Fourth Wing",
-    "author": "Rebecca Yarros",
-    "year": 2023,
-    "genre": "Fantasy"
-  },
-  {
-    "id": 2,
-    "title": "The Serpent and the Wings of Night",
-    "author": "Carissa Broadbent",
-    "year": 2022,
-    "genre": "Fantasy Romance"
-  },
-  {
-    "id": 3,
-    "title": "Throne of Glass",
-    "author": "Sarah J. Maas",
-    "year": 2012,
-    "genre": "Fantasy"
-  }
+  {"id": 1, "title": "Fourth Wing", "author": "Rebecca Yarros", "year": 2023, "genre": "Fantasy"},
+  {"id": 2,"title": "The Serpent and the Wings of Night", "author": "Carissa Broadbent", "year": 2022, "genre": "Fantasy Romance"},
+  {"id": 3,"title": "Throne of Glass", "author": "Sarah J. Maas", "year": 2012, "genre": "Fantasy"}
 ]
